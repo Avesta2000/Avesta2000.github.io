@@ -127,10 +127,15 @@ html{
     height: 100%;
     margin-top: 3%;
     padding: 0;
+    display: flex;
 }
 
 
 .fa-arrow-alt-circle-up{
     width: 50%;
     height: 20%;
+}
+
+.getintouch{
+    width: 100%;
 }
