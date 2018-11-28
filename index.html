@@ -1,1 +1,295 @@
-Hello World
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+        <title>Portfolio</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap-4.0.0/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="index.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+
+    <a id="haut"></a>
+
+        <header class="container-fluid headernav">
+                <ul class="nav justify-content-end bg-dark fixed-top">
+                                <li class="nav-item">
+                                  <a class="nav-link headerlink " href="#">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link headerlink" href="#">ABOUT ME</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link headerlink" href="#">SKILLS</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link headerlink" href="#">PORTFOLIO</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link headerlink" href="#">CONTACT</a>
+                                </li>
+                              </ul>
+
+        </header>
+
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="hello" src="img/helloslider.jpg" alt="slider1">
+              </div>
+              <div class="carousel-item">
+                <img class="hello" src="img/duprintauweb.jpg" alt="slider2">
+              </div>
+            </div>
+          
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          
+          </div>       
+
+
+          <div class="contact row">
+                  <div class="col"></div>
+                  <div class="col infos">
+                      <img class="img-fluid fd" src="img/fd.png" alt="about">
+                      <p>“ Fort d’une expérience très diversifiée dans la presse écrite -comme rédacteur-graphiste- 
+                        je me tourne résolument désormais vers les métiers du Web. A l’heure où le journalisme amorce 
+                        un virage délibéré vers ces nouveaux médias, je suis aujourd’hui une formation 
+                        Web’n Go qui me permet de prendre une longueur d’avance sur les modes de communication d’hier.“
+                      </p>
+                      <div class="blackblock">
+                          <div class="perso">
+                              <h4><strong>Name</strong><br>Guillaume Bonduelle<br></h4>
+                              <h4><strong>Phone</strong><br>06 26 54 45 51<br></h4>
+                              <h4><strong>Email</strong><br>g.bonduelle@free.fr<br></h4>
+                              <h4><i class="fab fa-linkedin-in"></i><br>Guillaume Bonduelle</h4>
+                      
+                     
+                          </div>
+                      </div>
+                    <button type="button" class="btn btn-primary btn-lg">CONTACT ME</button>
+                    <a href="CV_17_aout_2018.pdf" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download CV</button></a>
+                    </div>
+          </div>
+
+          <div>
+
+            <img class="img-fluid" src="img/Skills.jpg" alt="skills">
+          </div>
+
+          <section class="portfolio intro">
+            <h1>My work</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do smod <br>
+              tempor incididunt ut labore et dolore magna aliqua. Quis </p>
+            
+         
+          <div class="row vignettes">
+            <div class="col">
+              <div class="card">
+                <img src="img/zekitchen.jpg" alt="zekitchen" style="width:100%">
+                <div class="container">
+                  <h4><b>Ze Kitchen gallery</b></h4> 
+                  <p>Projet créatif. Les élèves devaient concevoir le graphisme d'un site, 
+                    en l'occurence pour un restaurant gastronomique, de la page d'accueil aux différents menus. (Gobelins)</p> 
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card">
+                <img src="img/humans.jpg" alt="humans" style="width:100%">
+                <div class="container">
+                  <h4><b>Humans</b></h4> 
+                  <p>Carousel JavaScript (Gobelins)</p> 
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row vignettes">
+              <div class="col">
+                <div class="card">
+                    <img src="img/insondable.png" alt="insondable" style="width:100%">
+                  <div class="container">
+                      <h4><b>L'insondable</b></h4> 
+                      <p>Conception graphique et integration <br> d'un site à l'issue d'une formation 
+                        <br>de 5 semaines à l'école des Gobelins.</p> 
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col">
+                <div class="card">
+                    <img src="img/decouvertes.png" alt="insondable" style="width:100%">
+                  <div class="container">
+                      <h4><b>L'insondable</b></h4> 
+                      <p>Conception graphique et integration <br> d'un site à l'issue d'une formation 
+                        <br>de 5 semaines à l'école des Gobelins.</p> 
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col">
+                <div class="card">
+                  <img src="img/artwork_szajner.png" alt="insondable" style="width:100%">
+                  <div class="container">
+                    <h4><b>L'insondable</b></h4> 
+                    <p>Conception graphique et integration <br> d'un site à l'issue d'une formation 
+                      <br>de 5 semaines à l'école des Gobelins.</p> 
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col">
+                  <div class="card">
+                    <img src="img/artwork_pop.png" alt="insondable" style="width:100%">
+                    <div class="container">
+                      <h4><b>L'insondable</b></h4> 
+                      <p>Conception graphique et integration <br> d'un site à l'issue d'une formation 
+                        <br>de 5 semaines à l'école des Gobelins.</p> 
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+
+            <div class="row vignettes">
+                <div class="col">
+                  <div class="card">
+                      <img src="img/hotel.jpg" alt="hotel" style="width:100%">
+                    <div class="container">
+                      <h4><b>HTML/CSS</b></h4> 
+                      <p>Reproduire fidèlement le mock-up. L'exercice présente plusieurs difficultes :
+                        créer un menu actif ou intuitif, utiliser les balises HTML afin d'alterner les "graisses",
+                        gérer les espaces et les filets de paragraphe, intégrer une carte "fonctionnelle" et 
+                        réaliser un tableau réactif au passage de la souris. <strong> (Epitech)</strong></p> 
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="col">
+                  <div class="card">
+                    <img src="img/accessibilite.jpg" alt="accessibilité" style="width:100%">
+                    <div class="container">
+                      <h4><b>Accessibilité et sémantique</b></h4> 
+                      <p>Se familiariser avec les fonctionnalités de HTML qui bénéficient à l'accessibilité, 
+                        et comment les utiliser de manière appropriée dans vos documents web. Au-delà des contraintes 
+                        liées à la reproduction du mock-up (police approchante, variantes typographiques, 
+                        positionner correctement les images), il fallait être capable de générer des barres de Skills.
+                         <strong> (Epitech)</strong></p> 
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col">
+                  <div class="card">
+                      <img src="img/animation.jpg" alt="animation" style="width:100%">
+                    <div class="container">
+                      <h4><b>Animations</b></h4> 
+                      <p>Cet exercice avait pour objectif principal de se familiariser avec les animations.
+                        Chaque "image" ayant une action précise (déplacement, grossissement, etc…). 
+                        Savoir gérer la fonction background image et l'opacité étaient indispensables pour que l'exercice soit complet.
+                        <strong>(Epitech)</strong></p> 
+                    </div>
+                  </div>
+                </div>
+    
+              </div>
+
+              <div class="row vignettes">
+                  <div class="col">
+                    <div class="card">
+                        <img src="img/safy.jpg" alt="safy" style="width:100%">
+                      <div class="container">
+                        <h4><b>HTML-CSS-Responsive</b></h4> 
+                        <p>Reproduire le mock-up en respectant les normes W3C. L'intégration doit être "accessible" 
+                           et prendre en compte le référencement (SEO) pour les moteurs de recherche. <strong>(Epitech)</strong></p> 
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="col">
+                    <div class="card">
+                        <img src="img/moonheader.jpg" alt="moon" style="width:100%">
+                      <div class="container">
+                        <h4><b>Introduction au SASS</b></h4> 
+                        <p>Reproduire le mock-up en utilsant SASS.<strong>(Epitech)</strong></p> 
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col">
+                    <div class="card">
+                        <img src="img/helloworld.jpg" alt="hello" style="width:100%">
+                      <div class="container">
+                        <h4><b>SASS</b></h4> 
+                        <p>Comme l'exercice précedent, reproduire le mock-up en utilisant SASS.<strong>(Epitech)</strong></p> 
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="col">
+                      <div class="card">
+                          <img src="img/batman.jpg" alt="batman" style="width:100%">
+                        <div class="container">
+                          <h4><b>Materialize</b></h4> 
+                          <p>Reproduire le mock-up en utilisant Materialize. <strong>(Epitech)</strong></p> 
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+
+        </section>
+
+        <div class="container-fluid formulaire">
+            <form>
+                <div class="form-row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="First name">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name">
+                  </div>
+                </div>
+              </form>
+              <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputEmail4"></label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                  </div>
+                  <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputEmail4"></label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                      </div>
+                      <br>
+              
+                
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+          </div>
+
+          <div class="d-flex justify-content-end fixed-bottom">
+          <a href="#haut"><i class="far fa-arrow-alt-circle-up"></i></a>
+
+          </div>
+
+
+</body>
+
+</html>
