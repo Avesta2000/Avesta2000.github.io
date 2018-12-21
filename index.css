@@ -130,12 +130,56 @@ html{
     display: flex;
 }
 
-
 .fa-arrow-alt-circle-up{
-    width: 50%;
-    height: 20%;
+    font-size: 3vw;
 }
 
 .getintouch{
     width: 100%;
+    height: auto;
+}
+
+.touch h1, .touch h3{
+    text-align: center;
+}
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.inputname{
+        width: 80%;
+        margin-bottom: 3%;
+}
+
+.inputfirstname{
+    width: 80%;
+    margin-bottom: 3%;
+}
+
+.inputmail{
+    width: 80%;
+    margin-bottom: 3%;
+}
+
+.textmessage{
+    width: 80%;
+    margin-bottom: 3%;
+}
+
+.touch{
+    margin-left: 2%;
+    width: 80%;
+    height: 58vh;
+    border: 1px solid;
+    padding: 50px;
+    background-color: white;
+    box-shadow: 5px 10px #888888;
+}
+
+.envoi {
+      margin-left: 10%;
 }

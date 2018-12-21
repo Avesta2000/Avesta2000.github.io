@@ -24,13 +24,16 @@
                                   <a class="nav-link headerlink " href="#">HOME</a>
                                 </li>
                                 <li class="nav-item">
-                                  <a class="nav-link headerlink" href="#">ABOUT ME</a>
+                                  <a class="nav-link headerlink" href="#contact">ABOUT ME</a>
                                 </li>
                                 <li class="nav-item">
-                                  <a class="nav-link headerlink" href="#">SKILLS</a>
+                                  <a class="nav-link headerlink" href="#skills">SKILLS</a>
                                 </li>
                                 <li class="nav-item">
-                                  <a class="nav-link headerlink" href="#">PORTFOLIO</a>
+                                    <a class="nav-link headerlink" href="#softskills">SOFT SKILLS</a>
+                                  </li>
+                                <li class="nav-item">
+                                  <a class="nav-link headerlink" href="#work">PORTFOLIO</a>
                                 </li>
                                 <li class="nav-item">
                                   <a class="nav-link headerlink" href="#">CONTACT</a>
@@ -39,7 +42,7 @@
 
         </header>
 
-        <div id="demo" class="carousel slide" data-ride="carousel">
+          <div id="demo" class="carousel slide" data-ride="carousel">
 
             <!-- The slideshow -->
             <div class="carousel-inner">
@@ -63,6 +66,7 @@
 
 
           <div class="contact row">
+              <div id="contact"></div>
                   <div class="col"></div>
                   <div class="col infos">
                       <img class="img-fluid fd" src="img/fd.png" alt="about">
@@ -81,18 +85,23 @@
                      
                           </div>
                       </div>
-                    <a href="CV_17_aout_2018.pdf" download ><button class="btn"><i class="fa fa-download"></i> Download CV</button></a>
+                    <a href="CV_17_aout_2018.pdf" download><button class="btn"><i class="fa fa-download"></i> Download CV</button></a>
                     </div>
           </div>
 
-          <div>
-
+          <div id="skills">
             <img class="img-fluid" src="img/Skills.jpg" alt="skills">
           </div>
 
+
+          <div id="softskills">
+            <img class="img-fluid" src="img/softskills.jpg" alt="softskills">
+          </div>
+
           <section class="portfolio intro">
+            <div id="work">
             <h1>My work</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do smod <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do smod<br>
               tempor incididunt ut labore et dolore magna aliqua. Quis </p>
             
          
@@ -102,8 +111,8 @@
                 <img src="img/zekitchen.jpg" alt="zekitchen" style="width:100%">
                 <div class="container">
                   <h4><b>Ze Kitchen gallery</b></h4> 
-                  <p>Projet créatif. Les élèves devaient concevoir le graphisme d'un site, 
-                    en l'occurence pour un restaurant gastronomique, de la page d'accueil aux différents menus. (Gobelins)</p> 
+                  <p>Projet créatif. Les élèves devaient concevoir le graphisme d'un site, en l'occurence 
+                    pour un restaurant gastronomique, de la page d'accueil aux différents menus. (Gobelins)</p> 
                 </div>
               </div>
             </div>
@@ -252,34 +261,33 @@
                       </div>
                     </div>
                 </div>
-
+              </div>
 
         </section>
 
         <div class="container-fluid formulaire">
             <div class="col">
-                <img class="getintouch" src="img/Paper Logo MockUp.jpg" alt="formulaire">
+                <img class="getintouch" src="img/gizmo.jpg" alt="formulaire">
             </div>
 
-          <div class="col">
+          <div class="col touch">
             <h1><strong>Get in touch</strong></h1>
-            <h3>Look forward to hear from you !</h3>
-          <form action="https://formspree.io/guillaume.bonduelle@coding-academy.fr" method="POST">
-            <input type="text" name="Name" placeholder="Name"><br>
-            <input type="text" name="First name" placeholder="First name"><br>
-            <input type="email" name="_replyto" placeholder="Email"><br>
-            <textarea name="message" placeholder="Message"></textarea><br>
-            <input type="submit" value="Send">
+            <h3>Look forward to hear from you !</h3><br>
+          <form class="contactForm" action="https://formspree.io/guillaume.bonduelle@coding-academy.fr" method="POST">
+            <input class="inputname" type="text" name="Name" placeholder="Name">
+            <input class="inputfirstname" type="text" name="First name" placeholder="First name">
+            <input class="inputmail" type="email" name="_replyto" placeholder="Email">
+            <textarea class="textmessage" name="message" placeholder="Message"></textarea>
+            <input class="envoi" type="submit" value="Send">
           </form>
         </div>
    
+        </div>
 
-
-
-          </div>
           <div class="d-flex justify-content-end fixed-bottom">
               <a href="#haut"><i class="far fa-arrow-alt-circle-up"></i></a>
-
+        </div>
+    
 </body>
 
 </html>
