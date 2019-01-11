@@ -1,293 +1,278 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-        <title>Portfolio</title>
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="bootstrap-4.0.0/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="index.css"/>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
-</head>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Capriola" rel="stylesheet">
+    <!-- custom style -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body data-spy="scroll" data-target="#menu">
 
-<body>
-
-    <a id="haut"></a>
-
-        <header class="container-fluid headernav">
-                <ul class="nav justify-content-end bg-dark fixed-top">
-                                <li class="nav-item">
-                                  <a class="nav-link headerlink " href="#">HOME</a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link headerlink" href="#contact">ABOUT ME</a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link headerlink" href="#skills">SKILLS</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link headerlink" href="#softskills">SOFT SKILLS</a>
-                                  </li>
-                                <li class="nav-item">
-                                  <a class="nav-link headerlink" href="#work">PORTFOLIO</a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link headerlink" href="#">CONTACT</a>
-                                </li>
-                              </ul>
-
-        </header>
-
-          <div id="demo" class="carousel slide" data-ride="carousel">
-
-            <!-- The slideshow -->
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="hello" src="img/helloslider.jpg" alt="slider1">
-              </div>
-              <div class="carousel-item">
-                <img class="hello" src="img/duprintauweb.jpg" alt="slider2">
-              </div>
-            </div>
-          
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#demo" data-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#demo" data-slide="next">
-              <span class="carousel-control-next-icon"></span>
-            </a>
-          
-          </div>       
-
-
-          <div class="contact row">
-              <div id="contact"></div>
-                  <div class="col"></div>
-                  <div class="col infos">
-                      <img class="img-fluid fd" src="img/fd.png" alt="about">
-                      <p>“ Fort d’une expérience très diversifiée dans la presse écrite -comme rédacteur-graphiste- 
-                        je me tourne résolument désormais vers les métiers du Web. A l’heure où le journalisme amorce 
-                        un virage délibéré vers ces nouveaux médias, je suis aujourd’hui une formation 
-                        Web’n Go qui me permet de prendre une longueur d’avance sur les modes de communication d’hier.“
-                      </p>
-                      <div class="blackblock">
-                          <div class="perso">
-                              <h4><strong>Name</strong><br>Guillaume Bonduelle<br></h4>
-                              <h4><strong>Phone</strong><br>06 26 54 45 51<br></h4>
-                              <h4><strong>Email</strong><br>g.bonduelle@free.fr<br></h4>
-                              <h4><i class="fab fa-linkedin-in"></i><br>Guillaume Bonduelle</h4>
-                      
-                     
-                          </div>
-                      </div>
-                    <a href="CV_17_aout_2018.pdf" download><button class="btn"><i class="fa fa-download"></i> Download CV</button></a>
-                    </div>
-          </div>
-
-          <div id="skills">
-            <img class="img-fluid" src="img/Skills.jpg" alt="skills">
-          </div>
-
-
-          <div id="softskills">
-            <img class="img-fluid" src="img/softskills.jpg" alt="softskills">
-          </div>
-
-          <section class="portfolio intro">
-            <div id="work">
-            <h1>My work</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do smod<br>
-              tempor incididunt ut labore et dolore magna aliqua. Quis </p>
-            
-         
-          <div class="row vignettes">
-            <div class="col">
-              <div class="card">
-                <img src="img/zekitchen.jpg" alt="zekitchen" style="width:100%">
-                <div class="container">
-                  <h4><b>Ze Kitchen gallery</b></h4> 
-                  <p>Projet créatif. Les élèves devaient concevoir le graphisme d'un site, en l'occurence 
-                    pour un restaurant gastronomique, de la page d'accueil aux différents menus. (Gobelins)</p> 
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card">
-                <img src="img/humans.jpg" alt="humans" style="width:100%">
-                <div class="container">
-                  <h4><b>Humans</b></h4> 
-                  <p>Carousel JavaScript (Gobelins)</p> 
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="row vignettes">
-              <div class="col">
-                <div class="card">
-                    <img src="img/insondable.png" alt="insondable" style="width:100%">
-                  <div class="container">
-                      <h4><b>L'insondable</b></h4> 
-                      <p>Conception graphique et integration <br> d'un site à l'issue d'une formation 
-                        <br>de 5 semaines à l'école des Gobelins.</p> 
-                  </div>
-                </div>
-              </div>
   
-              <div class="col">
-                <div class="card">
-                    <img src="img/decouvertes.png" alt="insondable" style="width:100%">
-                  <div class="container">
-                      <h4><b>L'insondable</b></h4> 
-                      <p>Conception graphique et integration <br> d'un site à l'issue d'une formation 
-                        <br>de 5 semaines à l'école des Gobelins.</p> 
-                  </div>
-                </div>
-              </div>
-              
-              <div class="col">
-                <div class="card">
-                  <img src="img/artwork_szajner.png" alt="insondable" style="width:100%">
-                  <div class="container">
-                    <h4><b>L'insondable</b></h4> 
-                    <p>Conception graphique et integration <br> d'un site à l'issue d'une formation 
-                      <br>de 5 semaines à l'école des Gobelins.</p> 
-                  </div>
-                </div>
-              </div>
-  
-              <div class="col">
-                  <div class="card">
-                    <img src="img/artwork_pop.png" alt="insondable" style="width:100%">
-                    <div class="container">
-                      <h4><b>L'insondable</b></h4> 
-                      <p>Conception graphique et integration <br> d'un site à l'issue d'une formation 
-                        <br>de 5 semaines à l'école des Gobelins.</p> 
-                    </div>
-                  </div>
-                </div>
-
-            </div>
-
-            <div class="row vignettes">
-                <div class="col">
-                  <div class="card">
-                      <img src="img/hotel.jpg" alt="hotel" style="width:100%">
-                    <div class="container">
-                      <h4><b>HTML/CSS</b></h4> 
-                      <p>Reproduire fidèlement le mock-up. L'exercice présente plusieurs difficultes :
-                        créer un menu actif ou intuitif, utiliser les balises HTML afin d'alterner les "graisses",
-                        gérer les espaces et les filets de paragraphe, intégrer une carte "fonctionnelle" et 
-                        réaliser un tableau réactif au passage de la souris. <strong> (Epitech)</strong></p> 
-                    </div>
-                  </div>
-                </div>
-    
-                <div class="col">
-                  <div class="card">
-                    <img src="img/accessibilite.jpg" alt="accessibilité" style="width:100%">
-                    <div class="container">
-                      <h4><b>Accessibilité et sémantique</b></h4> 
-                      <p>Se familiariser avec les fonctionnalités de HTML qui bénéficient à l'accessibilité, 
-                        et comment les utiliser de manière appropriée dans vos documents web. Au-delà des contraintes 
-                        liées à la reproduction du mock-up (police approchante, variantes typographiques, 
-                        positionner correctement les images), il fallait être capable de générer des barres de Skills.
-                         <strong> (Epitech)</strong></p> 
-                    </div>
-                  </div>
-                </div>
-                
-                <div class="col">
-                  <div class="card">
-                      <img src="img/animation.jpg" alt="animation" style="width:100%">
-                    <div class="container">
-                      <h4><b>Animations</b></h4> 
-                      <p>Cet exercice avait pour objectif principal de se familiariser avec les animations.
-                        Chaque "image" ayant une action précise (déplacement, grossissement, etc…). 
-                        Savoir gérer la fonction background image et l'opacité étaient indispensables pour que l'exercice soit complet.
-                        <strong>(Epitech)</strong></p> 
-                    </div>
-                  </div>
-                </div>
-    
-              </div>
-
-              <div class="row vignettes">
-                  <div class="col">
-                    <div class="card">
-                        <img src="img/safy.jpg" alt="safy" style="width:100%">
-                      <div class="container">
-                        <h4><b>HTML-CSS-Responsive</b></h4> 
-                        <p>Reproduire le mock-up en respectant les normes W3C. L'intégration doit être "accessible" 
-                           et prendre en compte le référencement (SEO) pour les moteurs de recherche. <strong>(Epitech)</strong></p> 
-                      </div>
-                    </div>
-                  </div>
-      
-                  <div class="col">
-                    <div class="card">
-                        <img src="img/moonheader.jpg" alt="moon" style="width:100%">
-                      <div class="container">
-                        <h4><b>Introduction au SASS</b></h4> 
-                        <p>Reproduire le mock-up en utilsant SASS.<strong>(Epitech)</strong></p> 
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div class="col">
-                    <div class="card">
-                        <img src="img/helloworld.jpg" alt="hello" style="width:100%">
-                      <div class="container">
-                        <h4><b>SASS</b></h4> 
-                        <p>Comme l'exercice précedent, reproduire le mock-up en utilisant SASS.<strong>(Epitech)</strong></p> 
-                      </div>
-                    </div>
-                  </div>
-      
-                  <div class="col">
-                      <div class="card">
-                          <img src="img/batman.jpg" alt="batman" style="width:100%">
-                        <div class="container">
-                          <h4><b>Materialize</b></h4> 
-                          <p>Reproduire le mock-up en utilisant Materialize. <strong>(Epitech)</strong></p> 
-                        </div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-
-        </section>
-
-        <div class="container-fluid formulaire">
-            <div class="col">
-                <img class="getintouch" src="img/gizmo.jpg" alt="formulaire">
-            </div>
-
-          <div class="col touch">
-            <h1><strong>Get in touch</strong></h1>
-            <h3>Look forward to hear from you !</h3><br>
-          <form class="contactForm" action="https://formspree.io/guillaume.bonduelle@coding-academy.fr" method="POST">
-            <input class="inputname" type="text" name="Name" placeholder="Name">
-            <input class="inputfirstname" type="text" name="First name" placeholder="First name">
-            <input class="inputmail" type="email" name="_replyto" placeholder="Email">
-            <textarea class="textmessage" name="message" placeholder="Message"></textarea>
-            <input class="envoi" type="submit" value="Send">
-          </form>
-        </div>
+<div class="bg">
    
-        </div>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
+        <a class="navbar-brand text-muted" href="#">gb</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="menu">
 
-          <div class="d-flex justify-content-end fixed-bottom">
-              <a href="#haut"><i class="far fa-arrow-alt-circle-up"></i></a>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item page-scroll">
+              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item page-scroll">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item page-scroll">
+              <a class="nav-link" href="#services" tabindex="-1" aria-disabled="true">About Me</a>
+            </li>
+            <li class="nav-item page-scroll">
+                    <a class="nav-link" href="#skills" tabindex="-1" aria-disabled="true">Skills</a>
+            </li>
+            <li class="nav-item page-scroll">
+                <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
+              </li>
+          </ul>
         </div>
+      </nav>
+
+    <!-- en tête -->
+
+    <header id="home">
+        <div class="container padding-230" id="start">
+            <div class="row text-center">
+                <div class="col-md-12">
+
+                    <h1 class="font-80">Web Designer <br> &amp; Developer</h1>
+                    <hr>
+                    <p class="h2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia in reprehenderit, ducimus autem illo distinctio deleniti illum quam facere voluptate, ad a at quae eveniet officia vitae suscipit repellendus saepe!</p>
+
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+
+   
+</div>
+
+    <!-- portfolio -->
+    <section id="portfolio">
+        <div class="container padding-100">
+            <div class="row text-center">
+                <div class="col-md-12">
+                        <h2 class="font-60">Portfolio</h2>
+
+                    <hr><br>
+
+                    <div class="row">
+
+                        <div class="col-md-4">
+                            <img src="img/epitech.jpg" alt="img" class="img-fluid">
+                        </div>
+                
+                        <div class="col-md-4">
+                            <img src="img/gobelins.jpg" alt="img" class="img-fluid">
+                        </div>
+                        
+                        <div class="col-md-4">
+                                <img src="img/maisoncreative.jpg" alt="img" class="img-fluid">
+                        </div>
+
+                    </div>
+                    <div class="row padding-30">
+                    
+                            <div class="col-md-4">
+                                <img src="img/gobelins.jpg" alt="img" class="img-fluid">
+                            </div>
+
+                            <div class="col-md-4">
+                                    <img src="img/picture.jpg" alt="img" class="img-fluid">
+                                </div>
+                            
+                            <div class="col-md-4">
+                                    <img src="img/maisoncreative.jpg" alt="img" class="img-fluid">
+                            </div>
     
-</body>
+                        </div>
 
+                </div>
+            </div>
+
+        </div>
+  
+    </section>
+   
+     <!-- services -->
+    <section id="services" class="bg-cloud text-dark">
+        <div class="container padding-150 text-center">
+
+            <h2 class="font-60">About Me</h2>
+            <hr><br>
+
+            <div class="row">
+                <div class="col">
+                    <img src="img/Photo ID.jpg" alt="img" class="img-fluid">
+                </div>
+
+                <div class="col-md-7 citation">
+               
+                    <p>“ Fort d’une expérience très diversifiée dans la presse écrite -comme rédacteur-graphiste- je me tourne résolument désormais vers les métiers du Web. A l’heure où le journalisme amorce un virage délibéré vers ces nouveaux médias, je suis aujourd’hui une formation Web’n Go qui me permet de prendre une longueur d’avance sur les modes de communication d’hier.“</p>
+    <br>
+                    <div class="d-flex flex-wrap">
+                            <div class="p-2 bg-info">Guillaume Bonduelle</div>
+                            <div class="p-2 bg-warning">06 26 54 45 51</div>
+                            <div class="p-2 ml-auto bg-primary">g.bonduelle@free.fr</div>
+                            
+                    </div><br>
+                    <a href="CV 28 dec 2018.pdf" download><button class="btn"><i class="fa fa-download"></i> Download CV</button></a>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+       
+    </section>
+
+
+    <section id="skills">
+        <h2 class="sr-only">Gallerie</h2>
+         <!-- carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/Skills.jpg" class="d-block w-100" alt="firstslide">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/Skills.jpg" class="d-block w-100" alt="secondslide">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/Skills.jpg" class="d-block w-100" alt="thirdslide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+            </div>
+    </section>
+
+    <section id="contact">
+
+            <div class="container text-center padding-150">
+
+                <!-- social media -->
+                <div class="row">
+
+                <div class="col-md-12">
+
+                    <h2 class="font-60">Get In Touch</h2>
+                    <hr><br>
+
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a class="tw" href="#"></a></li>
+                        <li class="list-inline-item"><a class="fb" href="#"></a></li>
+                        <li class="list-inline-item"><a class="go" href="#"></a></li>
+                        <li class="list-inline-item"><a class="sc" href="#"></a></li>
+                    </ul>
+                </div>
+               
+                </div>
+
+                <!-- fin social media -->
+
+                <br><hr><br>
+
+                <!-- form -->
+                <div class="row justify-content-md-center">
+
+                    <div class="col-md-8">
+                            <form>
+                                    <div class="form-group ">
+                                            <label class="label" for="exampleFormControlInput1">First name</label>
+                                            <input type="firstname" class="form-control" id="exampleFormControlInput1">
+                                          </div>
+
+                                    <div class="form-group">
+                                            <label class="label" for="exampleFormControlInput1">Last name</label>
+                                            <input type="Lastname" class="form-control" id="exampleFormControlInput1">
+                                          </div>
+
+                                    <div class="form-group">
+                                      <label class="label"  for="exampleFormControlInput1">Email address</label>
+                                      <input type="email" class="form-control" id="exampleFormControlInput1">
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                      <label class="label" for="message">Message</label>
+                                      <textarea class="form-control" id="message" rows="2"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-outline-secondary">Send</button>
+                                  </form>
+
+                </div>
+
+
+                </div>
+
+
+
+            </div>
+
+
+    </section>
+
+    <footer class="bg-dark text-cloud">
+        <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12">
+                    <p class="padding-10" style="margin-bottom:0;">©compagny 2018</p>
+            </div>
+          
+
+        </div>
+
+        </div>
+
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+
+    <!-- à ajouter pour le page scroll effect -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+  </body>
 </html>
